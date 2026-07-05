@@ -321,7 +321,7 @@ h2 {
 
 .chain {
   position: relative;
-  padding-left: 48px;
+  padding-left: 54px;
 }
 
 .chain::before {
@@ -337,7 +337,7 @@ h2 {
 .chain-item {
   position: relative;
   display: grid;
-  grid-template-columns: 36px auto 1fr;
+  grid-template-columns: 50px auto 1fr;
   gap: 10px;
   align-items: center;
   padding: 8px 0;
