@@ -764,6 +764,21 @@ h2 {
     font-size: 2.2rem;
   }
 
+  .profile-photo {
+    width: 140px;
+    height: 140px;
+  }
+
+  .hero-image::before {
+    width: 176px;
+    height: 176px;
+  }
+
+  .hero-image::after {
+    width: 158px;
+    height: 158px;
+  }
+
   .metrics {
     grid-template-columns: 1fr;
     gap: 12px;
@@ -801,11 +816,34 @@ h2 {
     height: 40px;
     font-size: 1.1rem;
   }
+
+  #geometry-canvas {
+    opacity: 0.3;
+  }
+
+  .contact-section {
+    text-align: center;
+  }
 }
 
 @media (min-width: 761px) and (max-width: 1024px) {
   .hero-text h1 {
     font-size: clamp(2rem, 4vw, 3rem);
+  }
+
+  .profile-photo {
+    width: 160px;
+    height: 160px;
+  }
+
+  .hero-image::before {
+    width: 196px;
+    height: 196px;
+  }
+
+  .hero-image::after {
+    width: 178px;
+    height: 178px;
   }
 }
 
